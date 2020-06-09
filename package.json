@@ -3,6 +3,7 @@
   "version": "0.1.0-beta",
   "description": "Enjoyable keyboard shortcuts",
   "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "repository": "https://github.com/varld/litkey",
   "author": "Tobias Herber <tobias@herber.space>",
   "license": "MIT",

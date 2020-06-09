@@ -12,7 +12,7 @@ describe('usage with react', () => {
 
       useShortcut('mod+a', () => setClicked(true), [], div);
 
-      return <p>clicked: { '' + clicked }</p>;
+      return <p>clicked: {'' + clicked}</p>;
     };
 
     render(<Component />);

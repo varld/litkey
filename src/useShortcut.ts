@@ -8,6 +8,6 @@ export let useShortcut = (
   context?: Element
 ) => {
   useEffect(() => {
-    addShortcut(keys, handler, context);
+    return addShortcut(keys, handler, context);
   }, [keys, handler, context, ...dependencies]);
 };

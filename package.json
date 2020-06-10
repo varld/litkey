@@ -1,6 +1,6 @@
 {
   "name": "litkey",
-  "version": "0.1.0-beta",
+  "version": "0.1.1",
   "description": "Enjoyable keyboard shortcuts",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

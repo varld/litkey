@@ -4,7 +4,7 @@ import addShortcut from './index';
 export let useShortcut = (
   keys: string | string[],
   handler: (event: KeyboardEvent) => any,
-  dependencies?: any[],
+  dependencies: any[] = [],
   context?: Element
 ) => {
   useEffect(() => {
